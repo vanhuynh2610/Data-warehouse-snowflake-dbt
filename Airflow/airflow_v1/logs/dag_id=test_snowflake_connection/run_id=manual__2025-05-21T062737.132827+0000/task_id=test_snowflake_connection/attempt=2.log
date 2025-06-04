@@ -1,0 +1,13 @@
+{"timestamp":"2025-05-21T06:33:07.575727","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-21T06:33:07.595785","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/load_data.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-21T06:33:27.349453","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-21T06:33:27.666976","level":"info","event":"Connection Retrieved 'snowflake-connect'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-21T06:33:27.668879","level":"info","event":"Snowflake Connector for Python Version: 3.15.0, Python Version: 3.12.10, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36","logger":"snowflake.connector.connection"}
+{"timestamp":"2025-05-21T06:33:27.670219","level":"info","event":"Connecting to GLOBAL Snowflake domain","logger":"snowflake.connector.connection"}
+{"timestamp":"2025-05-21T06:33:30.649410","level":"info","event":"Running statement: SELECT CURRENT_VERSION();, parameters: None","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-21T06:33:30.649924","level":"info","event":"Running statement: SELECT CURRENT_VERSION();, parameters: None","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-21T06:33:30.826436","level":"info","event":"Rows affected: 1","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-21T06:33:30.838868","level":"info","event":"Rows affected: 1","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-21T06:33:30.839222","level":"info","event":"Snowflake query id: 01bc7da9-0001-29d8-0001-8a16000420a2","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-21T06:33:31.363731Z","level":"info","event":"Snowflake version: 9.13.2","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-21T06:33:31.365605","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

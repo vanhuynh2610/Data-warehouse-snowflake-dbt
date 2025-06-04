@@ -1,0 +1,8 @@
+{"timestamp":"2025-05-28T06:33:56.027065","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sql-test.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-28T06:34:30.248968","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sql-test.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-28T06:35:00.938916","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sql-test.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-28T06:35:32.130484","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sql-test.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-28T06:36:02.999548","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sql-test.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-28T06:36:33.727510","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sql-test.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-28T06:37:04.594368","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sql-test.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-28T06:37:35.229903","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sql-test.py","logger":"airflow.models.dagbag.DagBag"}

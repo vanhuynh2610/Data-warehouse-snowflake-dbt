@@ -1,0 +1,16 @@
+{"timestamp":"2025-05-21T13:48:35.058035","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-21T13:49:43.897009Z","level":"error","event":"Server indicated the task shouldn't be running anymore. Terminating process","detail":{"detail":{"reason":"not_running","message":"TI is no longer in the running state and task should terminate","current_state":"failed"}},"logger":"task"}
+{"timestamp":"2025-05-21T13:48:35.074299","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/load_data.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-21T13:49:30.516262","level":"error","event":"Process timed out, PID: 653","logger":"airflow.utils.timeout.TimeoutPosix"}
+{"timestamp":"2025-05-21T13:49:43.962616Z","level":"error","event":"Exception ignored in: <function _collection_gced at 0x7f0e3d1384a0>","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-21T13:49:43.989206Z","level":"error","event":"Traceback (most recent call last):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-21T13:49:43.990714Z","level":"error","event":"  File \"/home/airflow/.local/lib/python3.12/site-packages/sqlalchemy/event/registry.py\", line 53, in _collection_gced","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-21T13:49:43.993820Z","level":"error","event":"    def _collection_gced(ref):","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-21T13:49:43.999269Z","level":"error","event":"","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-21T13:49:44.004651Z","level":"error","event":"  File \"/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/timeout.py\", line 69, in handle_timeout","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-21T13:49:44.006508Z","level":"error","event":"    raise AirflowTaskTimeout(self.error_message)","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-21T13:49:44.008307Z","level":"error","event":"airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/load_data.py after 30.0s.","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-21T13:49:44.009856Z","level":"error","event":"Please take a look at these docs to improve your DAG import time:","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-21T13:49:44.015297Z","level":"error","event":"* https://airflow.apache.org/docs/apache-airflow/3.0.1/best-practices.html#top-level-python-code","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-21T13:49:44.018388Z","level":"error","event":"* https://airflow.apache.org/docs/apache-airflow/3.0.1/best-practices.html#reducing-dag-complexity, PID: 653","chan":"stderr","logger":"task"}
+{"timestamp":"2025-05-21T13:49:45.177932Z","level":"error","event":"Task killed!","logger":"task"}

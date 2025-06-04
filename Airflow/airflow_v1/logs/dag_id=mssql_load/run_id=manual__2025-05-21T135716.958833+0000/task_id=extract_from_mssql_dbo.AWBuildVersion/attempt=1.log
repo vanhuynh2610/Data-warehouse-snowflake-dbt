@@ -1,0 +1,9 @@
+{"timestamp":"2025-05-21T13:57:24.050930","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-21T13:57:24.074360","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/load_data.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-21T13:57:26.979260","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-21T13:57:40.066306","level":"info","event":"Connection Retrieved 'mssqlserver'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-21T13:57:40.300471","level":"info","event":"Running statement: SELECT * FROM dbo.AWBuildVersion, parameters: None","logger":"airflow.task.hooks.airflow.providers.microsoft.mssql.hooks.mssql.MsSqlHook"}
+{"timestamp":"2025-05-21T13:57:40.383464","level":"info","event":"Running statement: SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = UPPER('dbo.AWBuildVersion'), parameters: None","logger":"airflow.task.hooks.airflow.providers.microsoft.mssql.hooks.mssql.MsSqlHook"}
+{"timestamp":"2025-05-21T13:57:40.448361","level":"info","event":"Rows affected: 0","logger":"airflow.task.hooks.airflow.providers.microsoft.mssql.hooks.mssql.MsSqlHook"}
+{"timestamp":"2025-05-21T13:57:40.454155Z","level":"info","event":"No columns found for table dbo.AWBuildVersion","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-21T13:57:40.455924","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

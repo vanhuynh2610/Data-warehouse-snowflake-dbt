@@ -1,0 +1,7 @@
+pandas
+snowflake-connector-python
+snowflake-sqlalchemy
+pyodbc
+apache-airflow-providers-microsoft-mssql
+apache-airflow-providers-snowflake
+astro-sdk-python 

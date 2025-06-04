@@ -1,0 +1,25 @@
+{"timestamp":"2025-05-22T07:19:15.416376","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-22T07:19:15.429788","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/load_data.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-22T07:19:30.385444","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-22T07:19:44.605127","level":"info","event":"Connection Retrieved 'mssqlserver'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-22T07:19:45.836565","level":"info","event":"Running statement: SELECT * FROM Person.Person, parameters: None","logger":"airflow.task.hooks.airflow.providers.microsoft.mssql.hooks.mssql.MsSqlHook"}
+{"timestamp":"2025-05-22T07:21:07.153492","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-22T07:21:55.015481","level":"info","event":"Connection Retrieved 'snowflake-connect'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-22T07:21:55.090325","level":"info","event":"Snowflake Connector for Python Version: 3.15.0, Python Version: 3.12.10, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36","logger":"snowflake.connector.connection"}
+{"timestamp":"2025-05-22T07:21:55.474694","level":"info","event":"Connecting to GLOBAL Snowflake domain","logger":"snowflake.connector.connection"}
+{"timestamp":"2025-05-22T07:22:28.977283","level":"info","event":"Running statement: USE DATABASE EDW, parameters: None","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-22T07:22:28.979191","level":"info","event":"Running statement: USE DATABASE EDW, parameters: None","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-22T07:22:29.121133","level":"info","event":"Rows affected: 1","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-22T07:22:29.122126","level":"info","event":"Rows affected: 1","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-22T07:22:29.130428","level":"info","event":"Snowflake query id: 01bc837a-0001-296b-0001-8a160004539e","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-22T07:22:29.400502","level":"info","event":"Snowflake Connector for Python Version: 3.15.0, Python Version: 3.12.10, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36","logger":"snowflake.connector.connection"}
+{"timestamp":"2025-05-22T07:22:29.403087","level":"info","event":"Connecting to GLOBAL Snowflake domain","logger":"snowflake.connector.connection"}
+{"timestamp":"2025-05-22T07:22:30.295232","level":"info","event":"Running statement: CREATE SCHEMA IF NOT EXISTS Bronze, parameters: None","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-22T07:22:30.295859","level":"info","event":"Running statement: CREATE SCHEMA IF NOT EXISTS Bronze, parameters: None","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-22T07:22:30.413666","level":"info","event":"Rows affected: 1","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-22T07:22:30.414207","level":"info","event":"Rows affected: 1","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-22T07:22:30.414348","level":"info","event":"Snowflake query id: 01bc837a-0001-2952-0001-8a1600048092","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-22T07:22:30.711047","level":"info","event":"Snowflake Connector for Python Version: 3.15.0, Python Version: 3.12.10, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36","logger":"snowflake.connector.connection"}
+{"timestamp":"2025-05-22T07:22:30.712421","level":"info","event":"Connecting to GLOBAL Snowflake domain","logger":"snowflake.connector.connection"}
+{"timestamp":"2025-05-22T07:22:31.591621","level":"info","event":"Running statement: USE SCHEMA Bronze, parameters: None","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}
+{"timestamp":"2025-05-22T07:22:31.592142","level":"info","event":"Running statement: USE SCHEMA Bronze, parameters: None","logger":"airflow.task.hooks.airflow.providers.snowflake.hooks.snowflake.SnowflakeHook"}

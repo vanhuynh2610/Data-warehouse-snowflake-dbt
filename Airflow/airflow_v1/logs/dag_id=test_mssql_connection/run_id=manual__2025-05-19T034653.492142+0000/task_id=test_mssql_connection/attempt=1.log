@@ -1,0 +1,6 @@
+{"timestamp":"2025-05-19T03:46:54.823310","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-19T03:46:54.826244","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sql-test.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-19T03:46:54.945564","level":"info","event":"Secrets backends loaded for worker","count":1,"backend_classes":["EnvironmentVariablesBackend"],"logger":"supervisor"}
+{"timestamp":"2025-05-19T03:46:55.207813","level":"info","event":"Connection Retrieved 'mssqlserver'","logger":"airflow.hooks.base"}
+{"timestamp":"2025-05-19T03:46:55.208398","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-05-19T03:46:55.211559Z","level":"info","event":"host.docker.internal","chan":"stdout","logger":"task"}
