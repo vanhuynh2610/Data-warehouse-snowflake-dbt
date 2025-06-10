@@ -17,18 +17,22 @@ AdventureWorks is a fictional manufacturing company in need of an advanced data 
 ![product](https://github.com/user-attachments/assets/85c15113-2ddf-4653-a17e-5ae1bd0506d9)
 
 **Customer-related tables**: Customer, Person, SalesTerritory, Address, StateProvince, CountryRegion.
+
 ![Customer](https://github.com/user-attachments/assets/655abb0d-30eb-4e88-a8be-b046e68d16f2)
 
 
 **Order-related tables**: SalesOrderHeader, SalesOrderDetail.
+
 ![Sales](https://github.com/user-attachments/assets/18bedd4a-31cf-4c2f-9f5b-f764afa3b488)
 
 
 **Shipping and delivery**: ShipMethod,
+
 ![Shipmethod](https://github.com/user-attachments/assets/1380a828-8976-4a74-9e68-5c5400d7d2da)
 
 
 **Employee and Sales**: SalesPerson, Employee, SalesTerritoryHistory.
+
 ![Salesperson](https://github.com/user-attachments/assets/c354b291-d8af-48d0-982a-31198b3e6ca0)
 
 
