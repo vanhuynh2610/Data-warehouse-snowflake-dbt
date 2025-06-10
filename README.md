@@ -1,13 +1,46 @@
 # Data-warehouse-snowflake-dbt
 
 ### 1. Introduction
+AdventureWorks is a fictional manufacturing company in need of an advanced data solution to efficiently manage and analyze its business operations. The company relied on a transactional database (AdventureWorks2019) to store information about products, customers, orders, and sales. However, the existing system lacked the ability to perform historical analysis, generate meaningful reports, and support business intelligence (BI) requirements. The objective of this project was to design and implement a robust data warehouse (AdventureWorks_DWH) and develop BI reports to enable data-driven decision-making.
+
+### 2. Overview
+**Data Warehouse Modeling and Architecture**: Designed and implemented a modern data warehouse on Snowflake using the Medallion architecture (Bronze, Silver, Gold layers) to structure and organize data efficiently.
+
+**Data Ingestion and Transformation**: Utilized Apache Airflow to orchestrate data loading workflows from the transactional source system into Snowflake. Applied dbt (data build tool) to perform transformations across Medallion layers, ensuring data quality, reusability, and scalability.
+
+**Dashboard**: Built interactive dashboards directly within Snowflake's native dashboarding capabilities, 
+
+### 3. Source Database 
+
+**Product-related tables**: Product, ProductCategory, ProductSubcategory, ProductModel.
+
+![product](https://github.com/user-attachments/assets/85c15113-2ddf-4653-a17e-5ae1bd0506d9)
+
+**Customer-related tables**: Customer, Person, SalesTerritory, Address, StateProvince, CountryRegion.
+![Customer](https://github.com/user-attachments/assets/655abb0d-30eb-4e88-a8be-b046e68d16f2)
 
 
-### 2. Source Database 
-
-### 3. Data Architecture
-
-### 4. Data Warehouse Modeling 
+**Order-related tables**: SalesOrderHeader, SalesOrderDetail.
+![Sales](https://github.com/user-attachments/assets/18bedd4a-31cf-4c2f-9f5b-f764afa3b488)
 
 
-### 5. Dashboard
+**Shipping and delivery**: ShipMethod,
+![Shipmethod](https://github.com/user-attachments/assets/1380a828-8976-4a74-9e68-5c5400d7d2da)
+
+
+**Employee and Sales**: SalesPerson, Employee, SalesTerritoryHistory.
+![Salesperson](https://github.com/user-attachments/assets/c354b291-d8af-48d0-982a-31198b3e6ca0)
+
+
+
+### 4. Data Architecture
+
+### 5. Data Warehouse Modeling 
+
+
+The data warehouse (AdventureWorks_DWH) was designed using a star schema approach. The schema consists of:
+
+**Fact Tables**: Central tables that store quantitative data (e.g., sales facts).
+
+**Dimension Tables**: Surrounding tables that store descriptive attributes (e.g., customer, product, date, and shipping dimensions).
+### 6. Dashboard
