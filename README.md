@@ -39,6 +39,8 @@ AdventureWorks is a fictional manufacturing company in need of an advanced data 
 
 ### 4. Data Architecture
 
+![Ảnh chụp màn hình 2025-06-10 191902](https://github.com/user-attachments/assets/11b2b416-67ef-4a14-9c3a-6096d5aaa82c)
+
 ### 5. Data Warehouse Modeling 
 
 
