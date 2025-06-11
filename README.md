@@ -1,7 +1,7 @@
 # Data-warehouse-snowflake-dbt
 
 ### 1. Introduction
-AdventureWorks is a fictional manufacturing company in need of an advanced data solution to efficiently manage and analyze its business operations. The company relied on a transactional database (AdventureWorks2019) to store information about products, customers, orders, and sales. However, the existing system lacked the ability to perform historical analysis, generate meaningful reports, and support business intelligence (BI) requirements. The objective of this project was to design and implement a robust data warehouse (AdventureWorks_DWH) and develop BI reports to enable data-driven decision-making.
+AdventureWorks is a fictional manufacturing company in need of an advanced data solution to efficiently manage and analyze its business operations. The company relied on a transactional database (AdventureWorks2019) to store information about products, customers, orders, and sales. However, the existing system lacked the ability to perform historical analysis, generate meaningful reports, and support business intelligence (BI) requirements. The objective of this project was to design and implement a robust data warehouse (AdventureWorks_DWH) and develop reports to enable data-driven decision-making.
 
 ### 2. Overview
 **Data Warehouse Modeling and Architecture**: Designed and implemented a modern data warehouse on Snowflake using the Medallion architecture (Bronze, Silver, Gold layers) to structure and organize data efficiently.
@@ -43,6 +43,7 @@ AdventureWorks is a fictional manufacturing company in need of an advanced data 
 
 ### 5. Data Warehouse Modeling 
 
+![image](https://github.com/user-attachments/assets/b9fb218c-db4d-4a26-b5aa-ba6b326b3763)
 
 The data warehouse (AdventureWorks_DWH) was designed using a star schema approach. The schema consists of:
 
